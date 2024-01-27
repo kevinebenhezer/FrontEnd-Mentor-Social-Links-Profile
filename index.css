@@ -1,0 +1,81 @@
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	background-color: hsl(0, 0%, 8%);
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 23rem;
+	height: 100%;
+	background-color: hsl(0, 0%, 12%);
+	border-radius: 10px;
+
+	margin: 10px;
+}
+
+.card .card-body {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.card .card-image {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin-top: 1rem;
+	margin-bottom: -5px;
+}
+
+.card .card-title {
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+.card .card-subtitle {
+	margin-top: -9px;
+	margin-bottom: 1.5rem;
+	font-size: 14px;
+	color: hsl(75, 94%, 57%);
+}
+
+.card p {
+	margin-bottom: 1.5rem;
+	font-size: 14px;
+}
+
+.card-button button {
+	width: 90%;
+	margin-bottom: 10px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: 600;
+	background-color: hsl(0, 0%, 20%);
+	border: none;
+	color: white;
+	border-radius: 10px;
+	height: 45px;
+	margin-bottom: 14px;
+}
+
+.card-button button:hover {
+	background: linear-gradient(45deg, hsl(75, 94%, 57%) 30%, hsl(85, 94%, 57%) 100%);
+	color: black;
+	cursor: pointer;
+}
+
+.card-button button:active {
+	background: linear-gradient(45deg, hsl(75, 94%, 57%) 30%, hsl(85, 94%, 57%) 100%);
+	color: black;
+}
